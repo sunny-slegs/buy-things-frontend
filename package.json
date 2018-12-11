@@ -1,0 +1,19 @@
+{
+  "name": "buy-things-frontend",
+  "version": "1.0.0",
+  "description": "\"An example React, GraphQL, Next and Apollo Application\"",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "sunny-slegs",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^7.0.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "styled-components": "^4.1.2"
+  }
+}
