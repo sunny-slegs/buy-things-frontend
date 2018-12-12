@@ -1,17 +1,23 @@
 import Nav from './Nav';
 import styled from 'styled-components';
 
-const Logo = styled.a`
+const Logo = styled.h1`
     color: purple;
     font-size: 2rem;
-    border: 2px solid black;
     padding: 5px;
+    a {
+    border: 2px solid black;
+    padding: 0.5rem 1rem
+    }
 `;
 
 const Header = () => (
     <div>
         <div>
-            <Logo>Buy Things</Logo>
+            <Logo href='/'>
+                <a>Buy Things</a>
+            </Logo>
+            <Nav />
         </div>
         <div>
             <p>Search</p>
@@ -19,7 +25,6 @@ const Header = () => (
         <div>
             <p>Cart</p>
         </div>
-        <Nav />
     </div>  
 );
 
