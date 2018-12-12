@@ -7,7 +7,8 @@ const Logo = styled.h1`
     padding: 5px;
     a {
     border: 2px solid black;
-    padding: 0.5rem 1rem
+    padding: 0.5rem 1rem;
+    cursor: pointer;
     }
 `;
 
